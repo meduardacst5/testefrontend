@@ -1,0 +1,27 @@
+body{
+    background-color: orange;
+    width: 100vw;
+    height: 300vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inscreva_se_hoje{
+    font-size: 250px;
+    color: white;
+    margin: 0;
+
+}
+.caixa_para_foto{
+    /* background-color: black; */
+    width: 100%;
+    height: 4600px;
+}
+.lugar_da_foto{
+    background-image: url(foto_.jpg);
+    width: 100%;
+    height: 4600px;
+    margin-right: 10%;
+    margin-top: -25px;
+    display: flex;
+}

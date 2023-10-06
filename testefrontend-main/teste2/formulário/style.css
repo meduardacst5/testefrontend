@@ -1,0 +1,78 @@
+@import url('https://fonts.cdnfonts.com/css/anton');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;900&display=swap');
+
+body{
+    background-color: #141414;
+}
+.titulo_um{
+    color: black;
+    font-family:'Anton', sans-serif;
+    font-size: 40px;
+    margin: auto 50px;
+}
+.caixa_um{
+    /* margin: 50px; */
+    background-color: #f9ef23;
+    height: 80px;
+    /* border-radius: 100rem; */
+    display: flex;
+    justify-content: space-between;
+}
+.functions{
+    display: flex;
+    margin: auto 100px;
+    width: 250px;
+    justify-content: space-between;
+
+}
+.functions a{
+    text-decoration: none;
+    color: #141414;
+    font-family: 'Anton', sans-serif;
+}
+.nome{
+    width: 40%;
+    padding: 12px 20px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    margin-left: 50%;
+    margin-top: 50px;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+.primeiro_nome {
+    font-family: 'Anton', sans-serif;
+    color: #f9ef23;
+    font-size: medium;
+    margin-left: 50%;
+    position: relative;
+    top: 45px;
+}
+.nascimento{
+    width: 40%;
+    padding: 12px 20px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    margin-left: 50%;
+    margin-top: 50px;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+.data_de_nascimento{
+    font-family: 'Anton', sans-serif;
+    color: #f9ef23;
+    font-size: medium;
+    margin-left: 50%;
+    position: relative;
+    top: 45px; 
+}
+#formulario{
+    display: flex;
+    background-image: url(background.jpg);
+    margin: 20px;
+    width: 43%;
+    height: 450px;   
+}

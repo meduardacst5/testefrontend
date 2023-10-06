@@ -1,0 +1,37 @@
+@import url('https://fonts.cdnfonts.com/css/anton');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;900&display=swap');
+
+body{
+    background-color: #141414;
+}
+.titulo_um{
+    color: black;
+    font-family:'Anton', sans-serif;
+    font-size: xx-large;
+    margin: auto 50px;
+}
+.caixa_um{
+    margin: 50px;
+    background-color: #f9ef23;
+    height: 50px;
+    border-radius: 100rem;
+    display: flex;
+    justify-content: space-between;
+}
+.functions{
+    display: flex;
+    margin: auto 100px;
+    width: 250px;
+    justify-content: space-between;
+
+}
+.functions a{
+    text-decoration: none;
+    color: #141414;
+}
+#formulario{
+    background-color: #f9ef23;
+    margin: 50px;
+    height: 250px;
+}

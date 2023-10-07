@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt_br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +8,46 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <div class="caixa_um">
             <h1 class="titulo_um">FORMULÁRIO</h1>
-            
+
             <nav class="functions">
-                <a href=".">Home</a>
-                <a href=".">Já me inscrevi</a>
+                <a href="../paste/">Home</a>
+                <a href="../paste/">Já me inscrevi</a>
                 <a href=".">Saber mais</a>
             </nav>
         </div>
-        <form id="formulario">
-        </div>
-         <div>
-            <label class="primeiro_nome">Nome Completo:</label>
-            <input type=text class="nome" name="Nome" placeholder="Digite seu nome completo">
-        </div>
-        <div>
-            <label class="data_de_nascimento">Quando Você Nasceu?</label>
-            <input type=text class="nascimento" name="nascimento_" placeholder="Digite sua data de nascimento">
-        </div>
-    </form>
+        <form class="formular">
+            <div class="fotos">
+                <img class="foto1" src="john-fornander-TAZoUmDqzXk-unsplash.jpg">
+                <img class="foto2" src="total-shape-wXBK9JrM0iU-unsplash.jpg">
+            </div>
+            <div class="inputs">
+                <div>
+                    <label class="primeiro_nome">Nome Completo</label>
+                    <input type=text class="nome" name="Nome" placeholder="Digite seu nome completo" required>
+                </div>
+                <div>
+                    <label class="email">Email</label>
+                    <input type=text class="email_" name="email_um" placeholder="Digite seu email"required>
+                </div>
+                <div>
+                    <label class="senha_um">Senha</label>
+                    <input type=text class="senha" name="senha_" placeholder="Digite sua senha"required>
+                </div>
+                <div>
+                    <label class="senha_dois">Confirme sua senha</label>
+                    <input type=text class="senha_dois_dois" name="senha_dois_" placeholder="Digite sua senha novamente">
+                </div>
+                <div class="button2">
+                    <button>Enviar</button>
+                    <button>Cancelar</button>
+                </div>
+            </div>
+        </form>
 </body>
+
 </html>

@@ -32,47 +32,110 @@ body{
     font-family: 'Anton', sans-serif;
 }
 .nome{
-    width: 40%;
+    width: 30%;
     padding: 12px 20px;
-    border-radius: 15px;
     box-sizing: border-box;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
     margin-left: 50%;
     margin-top: 50px;
     display: inline-block;
     border: 1px solid #ccc;
+    border-radius: 20px;
 }
 .primeiro_nome {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
     color: #f9ef23;
     font-size: medium;
     margin-left: 50%;
     position: relative;
     top: 45px;
 }
-.nascimento{
-    width: 40%;
+.email_{
+    width: 30%;
     padding: 12px 20px;
-    border-radius: 15px;
     box-sizing: border-box;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
     margin-left: 50%;
     margin-top: 50px;
     display: inline-block;
     border: 1px solid #ccc;
+    border-radius: 20px;
 }
-.data_de_nascimento{
-    font-family: 'Anton', sans-serif;
+.email{
+    font-family: 'Hanken Grotesk', sans-serif;
     color: #f9ef23;
     font-size: medium;
     margin-left: 50%;
     position: relative;
     top: 45px; 
 }
-#formulario{
+.formulario{
     display: flex;
-    background-image: url(background.jpg);
-    margin: 20px;
-    width: 43%;
-    height: 450px;   
+}
+.fotos{
+    display: flex;
+    margin: 30px;
+}
+.foto1{
+    height: 500px;
+    object-fit: cover;
+}
+.foto2{
+    height: 500px;
+    object-fit: cover;
+    margin-top: 300px;
+    margin-left: -100px;
+}
+.inputs{
+    width: 100%;
+}
+.senha_um{
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #f9ef23;
+    font-size: medium;
+    margin-left: 50%;
+    position: relative;
+    top: 45px; 
+}
+.senha{
+    width: 30%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin-left: 50%;
+    margin-top: 50px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+.senha_dois{
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #f9ef23;
+    font-size: medium;
+    margin-left: 50%;
+    position: relative;
+    top: 45px; 
+}
+.senha_dois_dois{
+    width: 30%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin-left: 50%;
+    margin-top: 50px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+.button2 button{
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+    border: none;
+    margin-left: 700px;
+    font-weight: 20px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #141414;
+    background-color: #f9ef23;
+    border-radius: 20px;
 }
